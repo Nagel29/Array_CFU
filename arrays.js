@@ -11,7 +11,5 @@ ages.pop()
 //This will remove the first element ("true") in the myDog array
 myDog.shift()
 
-//Slice references the index positions within an array. The below code will
-//return Lou, Kya, and Jordi because Lou is in the 0 index position, and Misha
-//is in the 3 index position, but the end position is not returned with slice.
+//Slice references the index positions within an array. The below code will return Lou, Kya, and Jordi because Lou is in the 0 index position, and Misha is in the 3 index position, but the end position is not returned with slice.
 console.log(dogs.slice(0,3))
